@@ -336,7 +336,7 @@ h5 {
 
 aside {
     position: relative;
-    margin-top: 720px;
+    margin-top: 710px;
     margin-left: 350px;
     color: white;
     text-align: right;
@@ -347,6 +347,9 @@ aside {
 
 section.left2 img {
     margin-top: 100px;
+    
+    position: relative;
+    left: 40px;
 }
 
 h6 {
@@ -367,4 +370,23 @@ h6 {
     font-size: 15pt;
     display: flex;
 }
+
+.p7 {
+    margin-top: 220px;
+    float: left;
+    font-size: 18pt ;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    display: flex;
+}
+
+.p6 {
+    margin-top: 100px;
+    float: left;
+    color: white;
+    text-align: left;
+    font-size: 15pt;
+    display: flex;
+} 
 
