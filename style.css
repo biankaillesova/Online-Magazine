@@ -6,13 +6,13 @@
 
 body {
     background-color: #2f0049;
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
 
 header {
-    margin-top: 10px;
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -31,21 +31,30 @@ nav a {
     color: white;
     padding: 20px;
     float: right;
-    font-size: 21;
+    font-size: 12pt;
+    text-align: center;
 }
 
 nav button {
     background-color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     text-align: center;
-    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 12px;
+    display: inline-block;
+    height: 40px;
+    padding: 8px 0px;
 }
 
 nav button a {
     color: #2f0049;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15pt;
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: none;
+    margin-top: -18px;
 }
 
 main {
@@ -58,8 +67,8 @@ article.Intro {
     display: flex;  
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 110px;
+    margin-bottom: 110px;
 }
 
 section.left {
@@ -73,12 +82,31 @@ h1{
 
 h2{
     font-size: 21pt;
-    
+    font-weight: bold;
 }
 
-p{
-    margin-top: 35pt;
+h3{
+    margin-top: 55pt;
     font-size: 15pt;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 80px;
+    display: inline-block;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+button a{
+    color: #2f0049;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: none;
 }
 
 section.right {
@@ -86,5 +114,151 @@ section.right {
 }
 
 section.right img {
-    width: 750px;
+    float:right;
+    width: 830px;
+}
+
+.some1 {
+    position: absolute;
+    top: 570px;
+    right: 57.5px;
+}
+
+.some1 a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    line-height: 30px;
+}
+
+.email1 img{
+    width: 40px;
+    position: fixed;
+    top: 700px;
+    right: 50px;
+}
+
+p{
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 110px;
+}
+  
+.flex-container1 > div {
+    background-color: #502978;
+    border-radius: 15px;
+    width: 300px;
+    height: 410px;
+    position: relative;
+}
+
+.flex-container1 > div img {
+    width: 260px;
+    position: relative;
+    top: 50px;
+    bottom: auto;
+    right: 0px;
+    left: 20px;
+}
+
+.img1 {
+    margin-top: 40px;
+}
+
+.img2 {
+    margin-top: 50px;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 75px;
+}
+  
+.flex-container2 > div {
+    background-color: #6b4b9f;
+    color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 58px;
+    position: relative;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 75px;
+}
+
+footer {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #502978;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .article1 {
+    margin-top: 9px;
+    font-size: 11pt;
+    line-height: 19px;
+}
+
+footer .article2 {
+    font-size: 9pt;
+    line-height: 19px;
+}
+
+.some2 {
+    font-size: 11pt;
+    position: absolute;
+    top: 9px;
+    right: 95px;
+    line-height: 19px;
+}
+
+hr {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.some2 a {
+    padding: 15px;
+}
+
+.email2 p{
+    font-size: 10pt;
+    position: absolute;
+    top: 46px;
+    right: 105px;
+    line-height: 19px;
+}
+
+.email2 img {
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    right: 256px;
 }
